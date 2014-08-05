@@ -37,3 +37,4 @@ def main():
     with contextlib.closing(impl_zmq.ZmqProxy(CONF)) as reactor:
         reactor.consume_in_thread()
         reactor.wait()
+# 这个文件时干什么的？
